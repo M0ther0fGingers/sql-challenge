@@ -1,14 +1,14 @@
 # sql-challenge: employees_sql
 Module 9 Challenge Files
 ## Folder Structure
-The sql-challenge repo contains the sql code, images, and one subfolder, Resources. 
- - The employees_sql.sql file is the code to run in PGAdmin4. This code loads the tables and answers questions 1-8. 
- - employees_sql_QuickDBD.png is the image file of the diagram.
- - employees_sql_diagram.sql is the sql version of the diagram. 
- - The resources folder contains the .csv files to import into PGAdmin4 and the instructions for the challenge. 
+The sql-challenge repo contains subfolders ERD_files, Queries, Resources, Schema, and a README file.  
+ - The **ERD_files** folder contains employees_diagram.png and employees_diagram.sql files for the database diagram.
+ - The **Queries** folder contans employees_queries.sql which is the code for questions 1-8 of this challenge. 
+ - The **Resources** folder contains the .csv files and the challenge README instructions file
+ - The **Schema** folder contains the employees_schema.sql code to load the tables. 
 
-## employees_sql.sql documentation
-The employees_sql.sql should be loaded into PGAdmin4, then the .csv files from the Resources folder imported in the following order: Employees, titles, salaries, departments, dept_manager, and dept_emp.
+## mod_9_employees.sql documentation
+The **employees_schema.sql** should be loaded into PGAdmin4, then the .csv files from the Resources folder imported in the following order: Employees, titles, salaries, departments, dept_manager, and dept_emp.
  - Q1 uses a SELECT statement to gather the data from the employees table, then a JOIN statement is uesed to combine the columns. 
  - Q2 uses a SELECT statement to gather the first name and last name. the WHERE clause limits the responses to those employees with a hire date in the year 1986.
  - Q3 uses a SELECT statement to gather the columns and two JOIN statements to put the data together in a table. 
